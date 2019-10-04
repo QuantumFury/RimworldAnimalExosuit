@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="SurgeryFleshAnimal">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+		<surgerySuccessChanceFactor>1.5</surgerySuccessChanceFactor>
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="SurgeryFleshAnimal">
+		<defName>InstallBionicAnimalExosuit</defName>
+		<label>install bionic animal exoskeleton</label>
+		<description>Installs a bionic animal exoskeleton. Note: This operation is extremely lengthy due to the scale of the operation, make sure your doctor is well fed and not tired.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic animal exosuit</jobString>
+		<workAmount>10000</workAmount>
+		<surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicAnimalExosuit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicAnimalExosuit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<targetsBodyPart>false</targetsBodyPart>
+		<addsHediff>BionicAnimalExosuit</addsHediff>
+		<recipeUsers>
+			<li>Alpaca</li>
+			<li>Boomalope</li>
+			<li>Caribou</li>
+			<li>Cat</li>
+			<li>Cougar</li>
+			<li>Cow</li>
+			<li>Dromedary</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Fox_Arctic</li>
+			<li>Fox_Fennec</li>
+			<li>Fox_Red</li>
+			<li>Bear_Grizzly</li>
+			<li>Husky</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Megaspider</li>
+			<li>Megasloth</li>
+			<li>Monkey</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Pig</li>
+			<li>Bear_Polar</li>
+			<li>Rhinoceros</li>
+			<li>Thrumbo</li>
+			<li>Warg</li>
+			<li>WildBoar</li>
+			<li>Wolf_Arctic</li>
+			<li>Wolf_Timber</li>
+			<li>YorkshireTerrier</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+</Defs>

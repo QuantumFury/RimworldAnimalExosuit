@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<WorkGiverDef>
+		<defName>DoBillAnimalExosuit</defName>
+		<label>make animal exosuits</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>85</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableMachining</li>
+		</fixedBillGiverDefs>
+		<verb>make animal exosuits</verb>
+		<gerund>making animal exosuits at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Animal Bionics -->
+
+	<ResearchProjectDef>
+		<defName>AnimalBionicExosuit</defName>
+		<label>Animal Bionic Exosuits</label>
+		<description>Learn to craft and implant bionic body exoskeletons for animals</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>14</researchViewX>
+		<researchViewY>4</researchViewY>
+		<prerequisites>
+			<li>PoweredArmor</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	</ResearchProjectDef>
+
+
+
+</Defs>
