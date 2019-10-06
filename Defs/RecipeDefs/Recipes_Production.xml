@@ -4,7 +4,7 @@
 	<RecipeDef>
     <defName>Make_AnimalExosuit</defName>
     <label>make animal exosuit</label>
-    <description>Make an advanced component.</description>
+    <description>Make an exosuit.</description>
     <jobString>Making animal exosuit.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -54,7 +54,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li>BionicAnimalExosuit</li>
+      <BionicAnimalExosuit>1</BionicAnimalExosuit>
     </products>
     <researchPrerequisite>AnimalBionicExosuit</researchPrerequisite>
     <skillRequirements>
